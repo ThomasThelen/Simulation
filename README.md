@@ -27,7 +27,14 @@ The requested water temperature experiened fluctuations until the system was dam
 
 #Aero
 
-###RocketEquation
+### Two Stage Non-Ideal Rocket
+
+### Non Ideal Rocket Equation
+Accounts for
+Gravity
+Drag
+
+### Ideal Rocket Equation
 
 This python script explores the role mass plays on a rocket's delta v.
 
@@ -46,3 +53,20 @@ For example, if you wanted a delta v of 3000, it would require your dry mass to 
 ![](https://github.com/ThomasThelen/Simulations/blob/master/Aero/Rocket%20Equation/MassRatio.png)
 
 This plot shows how . Notice that the delta v gained after a ratio of around 50% becomes linear. 
+
+
+
+m(t)=m0e^-(delta_v/thrust_velocity)
+
+### Satellite Motion
+
+This models a satellite orbiting Earth as a function of distance from Earth. It can be used to find various orit parameters including velocity, acceleration, and period.
+
+
+PICTURE OF VELOCITY VS DISTANCE
+
+PICTURE OF ACCELERATION VS DISTANCE
+
+PICTURE OF PERIOD VS DISTANCE
+
+
