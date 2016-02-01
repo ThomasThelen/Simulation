@@ -3,9 +3,8 @@
 ### Two Stage Non-Ideal Rocket
 
 ### Non Ideal Rocket Equation
-Accounts for
-Gravity
-Drag
+
+Includes gravitational drag in the computation of the delta v
 
 ### Ideal Rocket Equation
 
