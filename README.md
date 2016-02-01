@@ -1,10 +1,6 @@
 #Aero
 
-### Two Stage Non-Ideal Rocket
-
-### Non Ideal Rocket Equation
-
-Includes gravitational drag in the computation of the delta v
+This folder contains various simulations pertaining to aerodynamic & orbital mechanic simulations.
 
 ### Ideal Rocket Equation
 
@@ -20,15 +16,14 @@ To answer this, you would go to the delta_v value on the x-axis and move up to t
 
 For example, if you wanted a delta v of 3000, it would require your dry mass to be about 70% of the rocket's mass. Note that this is specific for the rocket's parameters, seen in the .py file.
 
-
-
 ![](https://github.com/ThomasThelen/Simulations/blob/master/Aero/Ideal%20Rocket%20Equation/MassRatio.png?raw=true)
 
 This plot shows how . Notice that the delta v gained after a ratio of around 50% becomes linear. 
 
 
+### Non Ideal Rocket Equation
 
-m(t)=m0e^-(delta_v/thrust_velocity)
+Includes gravitational drag in the computation of the delta v
 
 ### Satellite Motion
 
