@@ -6,6 +6,11 @@ These are handy scripts/subroutine that may be used in other simulations.
 
 This script takes a set of parameters about two coordinate systems. Based on the information given, it will compute the position, velocity, and acceleration of a particle in the non-intertial frame.
 
+##Plot
+
+Apython script that will plot a csv data file.
+
+usage: Plot.py filename.csv
 
 #Aero
 
