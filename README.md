@@ -1,3 +1,12 @@
+#Tools
+
+These are handy scripts/subroutine that may be used in other simulations.
+
+##Intertial to NonInertial
+
+This script takes a set of parameters about two coordinate systems. Based on the information given, it will compute the position, velocity, and acceleration of a particle in the non-intertial frame.
+
+
 #Aero
 
 This folder contains various simulations pertaining to aerodynamic & orbital mechanic simulations.
