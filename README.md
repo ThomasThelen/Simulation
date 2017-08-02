@@ -1,18 +1,18 @@
-#Tools
+# Tools
 
 These are handy scripts/subroutine that may be used in other simulations.
 
-##Intertial to NonInertial
+## Intertial to NonInertial
 
 This script takes a set of parameters about two coordinate systems. Based on the information given, it will compute the position, velocity, and acceleration of a particle in the non-intertial frame.
 
-##Plot
+## Plot
 
 Apython script that will plot a csv data file.
 
 usage: Plot.py filename.csv
 
-#Aero
+# Aero
 
 This folder contains various simulations pertaining to aerodynamic & orbital mechanic simulations.
 
@@ -60,20 +60,16 @@ Because the acceleration and velocity are decreasing as orbit distance increases
 
 
 
-#Chemical
+# Chemical
 Includes simulations pertaining to chemical phenomena. Simulations include
 
 ### Chapman Reaction
 
 Simulates atmospheric ozone chemistry. It uses the ODEINT numerical library to solve the system of equations. Each chemical reaction is described as a differential equation. Because some reactions depend on the concentration of species in other reactions, the system becomes coupled. ODEINT solved the system and subsequent concentration profiles are obtained.
 
-PICTURE HERE
-
 ### CSTR Reaction
 
-This simulates a single species reaction in a CSTR. The concentration profile is obtained by solving a mass balance on the specie's concentration. This was done by using the ODEINt numerical library. The concentration profile was then plotted with gnuplot.
-
-PICTURE HERE
+This simulates a single species reaction in a CSTR. The concentration profile is obtained by solving a mass balance on the specie's concentration. This was done by using the ODEINt numerical library.
 
 ### Exothermic Water Cooled Reaction
 
