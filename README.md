@@ -32,12 +32,12 @@ For example, if you wanted a delta v of 3000, it would require your dry mass to 
 
 ![](https://github.com/ThomasThelen/Simulations/blob/master/Aero/Ideal%20Rocket%20Equation/MassRatio.png?raw=true)
 
-This plot shows how . Notice that the delta v gained after a ratio of around 50% becomes linear. 
+Notice that the delta v gained after a ratio of around 50% becomes linear. 
 
 
 ### Non Ideal Rocket Equation
 
-Includes gravitational drag in the computation of the delta v
+Includes gravitational drag in the computation of the delta v.
 
 ### Satellite Motion
 
@@ -51,7 +51,7 @@ It is clear that as the orbit distance increases, the velociy of the satellite w
 
 ![](https://github.com/ThomasThelen/Simulations/blob/master/Aero/Satellite%20Motion/figure_1-1.png)
 
-The acceleration also decreases as theorbit distance increases.
+The acceleration also decreases as the orbit distance increases.
 
 ![](https://github.com/ThomasThelen/Simulations/blob/master/Aero/Satellite%20Motion/figure_1-2.png?raw=true)
 
